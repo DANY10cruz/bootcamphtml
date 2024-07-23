@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Repaso HTML - CSS</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<h1>SITIO WEB REPASO BOOTCAMP - FULL STACK</h1>
+
+	<main>
+		<div class="perfil">
+			<img src="images/perfil_4.png" alt="Mi Foto" class="imgperfil">
+			<h2>Edward Rodriguez P.</h2>
+			<h3>Desarrollador Full Stack</h3>
+		</div>
+
+		<nav class="navegacion">
+			<a href="index.html">Inicio </a>
+			<a href="portafolio.html">Portafolio</a>
+			<a href="https://talentotechbogota.co/" target="_blank">Emprendimiento</a>
+			<a href="#contacto">Contáctame</a>
+		</nav>
+
+		<span class="subtitulo">Conóceme</span>
+		<p>Soy un profesional apasionado de la tecnología, proactivo. Profunda convicción ética, perseverante, creativo, orientado al ser, hacer y tener. Más de 15 años de experiencia en diseño y desarrollo de aplicaciones Web con PHP nativo y con frameworks Codeigniter, Yii y Laravel. Desarrollo aplicaciones .NET bajo el patrón MVC con base de datos SQL Server.</p>
+		<span class="lista">Educación</span>
+		<ol>
+			<li>Primaria: Colegio Nueva España</li>
+			<li>Secundaria: Gimnasio Académico</li>
+			<li>Profesional: Ingeniero de Software - Politecnico Grancolombiano</li>
+		</ol>
+		<span class="lista">Experiencia laboral</span>
+		<ul>
+			<li>Desarrollador Senior - Empresa 1</li>
+			<li>Desarrollador Full Stack - Empresa 2</li>
+			<li>Desarrollador Junior - Empresa 3</li>
+		</ul>
+
+
+		<a name="contacto"></a>
+		<span class="subtitulo">Contáctame</span>
+		<div class="fomulario">
+			<form action="#" method="POST" name="formcontacto" id="formcontacto">
+				<div>
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" id="nombre" placeholder="Nombre">
+				</div>
+				<div>
+					<label for="apellido">Apellido</label>
+					<input type="text" name="apellido" id="apellido" placeholder="Apellido">
+				</div>
+				<div>
+					<label for="sexo">Sexo: </label>
+					Masculino
+					<input type="radio" name="sexo" id="sexo" value="masculino">
+					Femenino
+					<input type='radio' name='sexo' id='sexo'  value='femenino'>
+				</div>
+
+				<div>
+					<label for="tema_interes">Tema de interese</label>
+					<select name="interes" id="interes">
+						<option value="">Seleccionar ...</option>
+						<option value="html">HTML</option>
+						<option value="css">C.S.S.</option>
+						<option value="js">JavaScript</option>
+					</select>
+				</div>
+
+				<div>
+					<input type="submit" name="btnenviar" id="btnenviar" value="Enviar">
+					<input type="reset" name="btnlimpiar" id="btnlimpiar" value="Limpiar">
+				</div>
+			</form>
+		</div>
+	</main>
+		
+	<footer>
+		<span>Sígueme en redes sociales</span>
+
+		<a href="https://facebook.com/edwardrodriguez" target="_blank">
+			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+			  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+			  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+			</svg>
+		</a>
+
+		<a href="https://twitter.com/tecnoedward" target="_blank">
+			<img src="images/twitter.png" alt="twitter" width="28px">
+		</a>
+		<a href="https://skype.com/edwardrodriguez" target="_blank">
+			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-skype" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+			  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+			  <path d="M12 3a9 9 0 0 1 8.603 11.65a4.5 4.5 0 0 1 -5.953 5.953a9 9 0 0 1 -11.253 -11.253a4.5 4.5 0 0 1 5.953 -5.954a8.987 8.987 0 0 1 2.65 -.396z" />
+			  <path d="M8 14.5c.5 2 2.358 2.5 4 2.5c2.905 0 4 -1.187 4 -2.5c0 -1.503 -1.927 -2.5 -4 -2.5s-4 -1 -4 -2.5c0 -1.313 1.095 -2.5 4 -2.5c1.642 0 3.5 .5 4 2.5" />
+			</svg>
+		</a>
+	</footer>
+
+
+</body>
+</html>
